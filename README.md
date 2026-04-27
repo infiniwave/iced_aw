@@ -23,7 +23,7 @@ iced_aw = { version = "0.14.0", features = ["full"] }
 
 | `iced` version | `iced_aw` version |
 | -------------- | ----------------- |
-| 0.13           | 0.11, 0.12        |
+| 0.13           | 0.12              |
 | 0.14           | 0.13, 0.14        |
 
 ## Widgets
