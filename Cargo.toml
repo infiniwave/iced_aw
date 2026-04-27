@@ -1,6 +1,6 @@
 [package]
 name = "iced_aw"
-version = "0.13.1"
+version = "0.14.0"
 authors = [
   "Kaiden42 <gitlab@tinysn.com>",
   "Andrew Wheeler <genusistimelord@gmail.com>",
@@ -65,8 +65,8 @@ full = [
 [dev-dependencies]
 iced_aw = { path = "./" }
 getrandom = { version = "0.4.2", features = ["wasm_js"] }
-rand = "0.10.0"
-env_logger = "0.11.9"                                        # For wrap example
+rand = "0.10.1"
+env_logger = "0.11.10"                                        # For wrap example
 iced_test = "0.14" # for UI testing
 
 [dev-dependencies.iced]
