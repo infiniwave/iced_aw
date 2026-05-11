@@ -16,7 +16,7 @@ categories = ["gui"]
 rust-version = "1.88"
 
 [features]
-default = ["full"]
+default = []
 
 badge = []
 card = []
@@ -70,12 +70,13 @@ env_logger = "0.11.10"                                        # For wrap example
 iced_test = "0.14" # for UI testing
 
 [dev-dependencies.iced]
-version = "0.14.0"
+git = "https://github.com/iced-rs/iced.git"
+rev = "cf09909"
 features = ["advanced"]
 
 [dependencies]
-iced_core = { version = "0.14.0" }
-iced_widget = { version = "0.14.2" }
+iced_core = { git = "https://github.com/iced-rs/iced.git", rev = "cf09909" }
+iced_widget = { git = "https://github.com/iced-rs/iced.git", rev = "cf09909" }
 
 cfg-if = "1.0"
 chrono = { version = "0.4.44", optional = true, features = ["wasmbind"] }
