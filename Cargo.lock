@@ -1379,7 +1379,7 @@ dependencies = [
  "iced_futures 0.15.0-dev",
  "iced_renderer 0.15.0-dev",
  "iced_runtime 0.15.0-dev",
- "iced_widget 0.15.0-dev",
+ "iced_widget",
  "iced_winit",
  "thiserror 2.0.18",
 ]
@@ -1395,9 +1395,8 @@ dependencies = [
  "iced",
  "iced_aw",
  "iced_core 0.15.0-dev",
- "iced_fonts",
  "iced_test",
- "iced_widget 0.15.0-dev",
+ "iced_widget",
  "log",
  "num-format",
  "num-traits",
@@ -1448,29 +1447,6 @@ dependencies = [
  "iced_core 0.15.0-dev",
  "iced_futures 0.15.0-dev",
  "log",
-]
-
-[[package]]
-name = "iced_fonts"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "214cff7c8499e328774216690e58e315a1a5f8f6fdd1035aed6298e62ffc4c1d"
-dependencies = [
- "iced_core 0.14.0",
- "iced_fonts_macros",
- "iced_widget 0.14.2",
-]
-
-[[package]]
-name = "iced_fonts_macros"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ef5125e110cb19cd1910a28298661c98c5d9ab02eef43594968352940e8752e"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
- "ttf-parser",
 ]
 
 [[package]]
@@ -1665,20 +1641,6 @@ dependencies = [
  "rustc-hash 2.1.2",
  "thiserror 2.0.18",
  "wgpu",
-]
-
-[[package]]
-name = "iced_widget"
-version = "0.14.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b1596afa0d3109c2618e8bc12bae6c11d3064df8f95c42dfce570397dbe957ab"
-dependencies = [
- "iced_renderer 0.14.0",
- "log",
- "num-traits",
- "rustc-hash 2.1.2",
- "thiserror 2.0.18",
- "unicode-segmentation",
 ]
 
 [[package]]
